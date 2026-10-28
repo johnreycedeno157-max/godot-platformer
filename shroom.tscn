@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://brq40djkaaga"]
+
+[ext_resource type="Texture2D" uid="uid://cpkfr7alrbksk" path="res://Mushroom_2.png" id="1_4spac"]
+
+[node name="Shroom" type="Area2D" unique_id=684800639]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1964802702]
+position = Vector2(1790, 130)
+scale = Vector2(3.26, 2.378049)
+texture = ExtResource("1_4spac")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=368386143]
